@@ -1,0 +1,129 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Menu */
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+/* Estilos generales */
+
+header {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+
+.local{
+    background-color: #f3f3f3;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+    margin-right: 40px;
+}
+
+/* Media Queries */
+
+@media ( max-width: 576px){
+    .seccion-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .texto{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .modalYo{
+        width: 90%;
+    }
+}
+
+
+/* Formulario */
+
+#bg-waves {
+    position:relative;
+
+}
+
+#seccion-contacto{
+    min-height: 500px;
+    position: relative;
+}
+#contenedor-formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f3f3f3;
+    border: solid 1px #3f3f3f;
+    border-radius: 5px;
+    max-width: 500px;
+
+
+}
+
+/* Footer */
+
+footer{
+    background: #000b76;
+    min-height: 100px;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+.iconos svg{
+    color:#f3f3f3;
+    padding: 0.25rem;
+
+}
+
+/* Menu Productos */
+
+.colorLetra{
+    color: #000b76;
+    
+}
+.color-letra{
+    color: rgb(119, 35, 35);
+}
+.titulosProductos {
+    background-color: #3f3f3f;
+
+}
